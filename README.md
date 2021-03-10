@@ -18,11 +18,13 @@ Password-Locker is an application that will help us manage our passwords and eve
 3. user is able to store his/her passwords(credentials)
 4. user is able to generate password using the app
 5. user is able to search/delete a credential
+
 ### Contact Information  
 * Email:charitytoni0@gmail.com
 * Tel:0783009892
 
 ### License 
 This project is license  by MIT for more information visit [LICENSE.md](LICENSE.md) .
+
 ### copyright information
 Copyright (c) 2020 ChartiyMutonii
