@@ -49,6 +49,19 @@ class testPassword(unittest.TestCase):
         whatsap_credential.save_credentials()
         self.new_credentials.delete_credential()
         self.assertEqual(len(Credentials.credential_list),1)
+        
+    @classmethod
+    def find_by_username(cls,username):
+        '''
+        function that takes an user name and return credential that matches it
+        helps user to search for a specific credential
+        '''
+        for credential in cls.credential_list:
+            '''
+            a for loop to loop through the list and return the credential that matches the user name
+            '''
+            if credential.username == username:
+                return credential    
     
     def test_display_all_credentials(self):
         '''
