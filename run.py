@@ -138,7 +138,7 @@ def main():
                 app_name =input()
                 print("App username ....")
                 username = input()
-                print("Enter the length of the password you want to generate e.g:5")
+                print("Enter the length of the password you want to generate max:8")
                 size=int(input())
                 password = passGen(size)
                 print(f"Your generated password is {password}")
