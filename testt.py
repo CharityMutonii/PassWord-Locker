@@ -49,7 +49,6 @@ class testPassword(unittest.TestCase):
         whatsap_credential.save_credentials()
         self.new_credentials.delete_credential()
         self.assertEqual(len(Credentials.credential_list),1)
-
     
     def test_display_all_credentials(self):
         '''
