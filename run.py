@@ -106,7 +106,7 @@ def main():
     if account_exist == u_name:
         print(f"Dear {u_name}, You're successfully Logged in!")
         while True:
-            print("_"*30)
+            print("_"*28)
             print("Explore more! ")
             print("write 1 ----- To create credentials")
             print("write 2----- To display created credentials")
